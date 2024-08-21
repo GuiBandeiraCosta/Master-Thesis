@@ -1,0 +1,11 @@
+# config.yaml
+seed: 42
+src_vocab_size: 30  
+tgt_vocab_size: 30  
+d_model: 512
+num_heads: 8
+num_layers: 4
+d_ff: 1024
+max_seq_length: 7400  
+dropout: 0.1
+lr: 0.0001
