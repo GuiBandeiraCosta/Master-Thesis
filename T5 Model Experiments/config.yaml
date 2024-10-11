@@ -1,0 +1,12 @@
+# config.yaml
+seed: 42
+checkpoint: "Salesforce/codet5p-220m"
+lr: 1e-4 
+max_length: 512
+batch_sizes: [1, 4, 8, 16]
+num_epochs: 10
+tasks_dir: "STR-ARC/"
+device: "cuda"
+save_model: False
+
+
